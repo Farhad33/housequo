@@ -15,7 +15,7 @@ jobs:
 
       - name: Archive project
         run: |
-          tar czf housequo.tar.gz package.json next.config.js jsconfig.json src public
+          tar czf housequo.tar.gz package.json next.config.ts tsconfig.json src public 
 
       - name: Decode SSH key
         env:
